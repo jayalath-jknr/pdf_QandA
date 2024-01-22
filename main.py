@@ -159,8 +159,7 @@ from clarifai_grpc.channel.clarifai_channel import ClarifaiChannel
 from clarifai_grpc.grpc.api import resources_pb2, service_pb2, service_pb2_grpc
 from clarifai_grpc.grpc.api.status import status_code_pb2
 
-PAT = 'b509d5dd7edc468b91784dbbc481c38e'
-clarifai_pat = os.getenv("CLARIFAI_PAT")
+PAT = os.getenv("CLARIFAI_PAT")
 USER_ID = 'openai'
 APP_ID = 'chat-completion'
 MODEL_ID = 'gpt-4-vision-alternative'
